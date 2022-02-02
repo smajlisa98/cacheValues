@@ -38,5 +38,5 @@ const memo = (fn) => {
 const newFunction = memo(doSomething);
 
 console.log(newFunction(3,4));  // racuna
-console.log(newFunction(3,4));  // cached
-console.log(newFunction(4,3));  // cached
+console.log(newFunction(3,4));  // cache
+console.log(newFunction(4,3));  // cache
